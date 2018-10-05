@@ -1,0 +1,131 @@
+.loginPage .info {
+    width:850px;
+    height:830px;
+    background-image:  url("../../images/main_bg.png");
+}
+.header {
+    position: absolute;
+    width:154px;
+    height:24px;
+    left:66px;
+    top:78px;
+    color:green;
+    font-size:25px;
+}
+.title {
+    position: absolute;    
+    width:629px;
+    height:88px;
+    left:68px;
+    top:246px;
+    color:black;
+    font-size:31px;
+    
+}
+.message {
+    position: absolute;    
+    width:629px;
+    height:88px;
+    left:68px;
+    top:356px;
+    color:black;
+    font-size:21px;
+    
+}
+.loginForm {
+    position: absolute;    
+    width:629px;
+    height:88px;
+    left:830px;
+    
+    top:256px;
+    color:green;
+    font-size:21px;
+}
+.loginTitle {
+    position: absolute;    
+    width:81px;
+    height:44px;
+    left:100px;
+    font-family: "Poppins-Regular";
+    top:0px;
+    color:black;
+    font-size:31px;
+}
+.loginUName {
+    position: absolute;    
+    width:81px;
+    height:44px;
+    left:100px;
+    font-family: "Poppins-Regular";
+    top:50px;
+    color:green;
+    font-size:14px;
+}
+.loginUnameInput {
+    position: absolute;    
+    width:300px;
+    height:70px;
+    left:00px;
+    font-family: "Poppins-Regular";
+    top:50px;
+    color:green;
+    font-size:14px;
+    border: 2px solid #3DA56B;
+    outline: 0;
+    border-width: 0 0 2px;
+}
+.loginPass  {
+    position: absolute;    
+    width:81px;
+    height:44px;
+    left:100px;
+    font-family: "Poppins-Regular";
+    top:120px;
+    color:green;
+    font-size:14px;
+
+}
+input::placeholder {
+    color: green;
+    font-size: 1.2em;
+    font-family: "Poppins-Regular";
+
+  }
+.loginPassInput {
+    position: absolute;    
+    width:300px;
+    height:30px;
+    left:00px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #3DA56B;
+    font-family: "Poppins-Regular";
+    top:20px;
+    color:green;
+    font-size:14px;
+}
+.loginSubmit {
+    position: absolute;    
+    width:300px;
+    height:44px;
+    left:100px;
+    font-family: "Poppins-Regular";
+    top:200px;
+    color:white;
+    font-size:14px;
+    border-radius: 2px;
+    border: none;
+    background: #3DA56B;
+}
+.forgotPassword {
+    position: absolute;    
+    width:200px;
+    height:44px;
+    left:100px;
+    font-family: "Poppins-Regular";
+    top:250px;
+    color:green;
+    font-size:20px;
+
+}

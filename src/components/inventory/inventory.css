@@ -1,0 +1,114 @@
+.inventory {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f2ed;
+}
+.tab{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.1);
+}
+.logoImage {
+    position: absolute;
+    left:32px;
+    top:19px;
+    width:154px;
+    height:25px;
+
+}
+.headerInventory {
+    position: absolute;
+    left: 52px;
+    top:92px;
+    width: 300px;
+    height: 28px;
+    font-size: 28px;
+    font-family: Poppins-SemiBold;
+    color: #222222;
+    opacity: 100%;
+}
+.listBorder {
+    position: absolute;
+    width: 900px;
+    height: 550px;
+    top: 165px;
+    left:50px;
+    border-radius: 10px;
+    background-color:  white;
+}
+.listTable {
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    top: 50px;
+    left:0;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+.listTableHeader {
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.newProduct{
+    position: absolute;    
+    width:150px;
+    height:44px;
+    left:1272px;
+    font-family: "Poppins-Regular";
+    top:85px;
+    color:white;
+    font-size:14px;
+    border-radius: 2px;
+    border: none;
+    background: #3DA56B;
+}
+.listCodeheader {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 40px;
+    text-align: left;
+    font:bold;
+    color:black;
+    }
+    .listProductheader {
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        left: 130px;
+        text-align: left;
+        font:bold;
+        color:black;
+    }
+    .listStockheader {
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        left: 330px;
+        text-align: left;
+        font:bold;
+        color:black;
+    }
+    .listExpDateheader {
+        position: absolute;
+        width: 150px;
+        height: 50px;
+        left: 410px;
+        text-align: left;
+        font:bold;
+        color:black;
+    }
+    .listActionheader {
+        position: absolute;
+        width: 150px;
+        height: 50px;
+        left: 690px;
+        text-align: left;
+        font:bold;
+        color:black;
+    }
